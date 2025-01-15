@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.network-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+.node {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.server {
+    background-color: darkmagenta;
+    top: 20px;
+    left: 50px;
+}
+
+.router {
+    background-color: yellow;
+    top: 150px;
+    left: 250px;
+}
+
+.client {
+    background-color: blue;
+    top: 300px;
+    left: 450px;
+}
+
+.label {
+    font-size: 16px;
+}
+
+.link {
+    position: absolute;
+    background-color: black;
+    height: 2px;
+}
+
+.server-router {
+    width: 180px;
+    top: 75px;
+    left: 150px;
+}
+
+.router-client {
+    width: 180px;
+    top: 225px;
+    left: 350px;
+}
