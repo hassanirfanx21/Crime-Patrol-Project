@@ -17,12 +17,12 @@ app.use(express.json());
 //---------------------------------------------------------------
 //this is to make sql connection with the database
 const db = mysql.createConnection({
-  host: "sql12.freesqldatabase.com", // Remote host address
+  host: "", // Remote host address
   port: 3306, // MySQL default port
-  user: "sql12752216", // Provided database username
-  password: "p2yvVtN7CA", // Provided database password
-  database: "sql12752216", // Provided database name
-});
+  user: "", // Provided database username
+  password: "", // Provided database password
+  database: "", // Provided database name
+});//all removed for privacy
 // Check database connection
 db.connect((err) => {
   if (err) {
